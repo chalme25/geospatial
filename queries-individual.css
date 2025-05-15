@@ -1,0 +1,217 @@
+/* 1232px */
+@media (max-width: 77em) {
+  h1 {
+    font-size: 4rem;
+  }
+
+  .container {
+    max-width: 100rem;
+  }
+}
+
+/* 1024px */
+@media (max-width: 64em) {
+  .home-button,
+  .gis-button {
+    width: 8rem;
+    height: 6rem;
+    border-radius: 12px;
+    font-size: 2rem;
+  }
+
+  .container {
+    max-width: 80rem;
+  }
+}
+
+/* 880px */
+@media (max-width: 55em) {
+  h1 {
+    font-size: 3.5rem;
+  }
+
+  .map-container {
+    height: 50rem;
+  }
+}
+
+/* 832px */
+@media (max-width: 52em) {
+  .container {
+    max-width: 62rem;
+  }
+
+  .map-container {
+    height: 45rem;
+  }
+
+  .header-section {
+    padding-bottom: 5rem;
+  }
+
+  .header-title {
+    transform: translateX(-50%) translateY(5rem);
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  .buttons-section {
+    gap: 1.2rem;
+  }
+
+  .description-section {
+    gap: 1.6rem;
+  }
+}
+
+/* 720px */
+@media (max-width: 45em) {
+  h1 {
+    font-size: 2.6rem;
+  }
+
+  .home-button,
+  .gis-button {
+    width: 7.2rem;
+    height: 5rem;
+    border-radius: 12px;
+    font-size: 1.8rem;
+  }
+}
+
+/* 640px */
+@media (max-width: 40em) {
+  .container {
+    max-width: 50rem;
+  }
+
+  .map-container {
+    height: 38rem;
+  }
+
+  .perth-map {
+    width: 45rem;
+  }
+
+  .high-park-map-img {
+    width: 48rem;
+  }
+
+  .home-button,
+  .gis-button {
+    width: 5.8rem;
+    height: 4rem;
+    border-radius: 12px;
+    font-size: 1.6rem;
+  }
+}
+
+/* 592px */
+@media (max-width: 37em) {
+  .header-section {
+    padding-bottom: 5rem;
+  }
+
+  .header-title {
+    transform: translateX(-50%) translateY(5rem);
+  }
+
+  .container p {
+    font-size: 1.8rem;
+  }
+
+  .container h2 {
+    font-size: 2.2rem;
+  }
+}
+
+/* 528px */
+@media (max-width: 33em) {
+  .header-title {
+    transform: translateX(-50%) translateY(6rem);
+  }
+
+  h1 {
+    font-size: 2.4rem;
+  }
+
+  .container {
+    max-width: 42rem;
+  }
+
+  .perth-map-container {
+    max-width: 100%;
+  }
+
+  .high-park-map-img {
+    width: 33rem;
+  }
+
+  .perth-map {
+    width: 100%;
+  }
+
+  .map-container {
+    height: 30rem;
+  }
+
+  .project-link span {
+    font-size: 2.6rem;
+  }
+
+  .project-link-button {
+    font-size: 2.6rem;
+  }
+}
+
+/* 416px */
+@media (max-width: 26em) {
+  h1 {
+    font-size: 2.2rem;
+  }
+
+  .container {
+    max-width: 34rem;
+    gap: 2rem;
+    padding-bottom: 4rem;
+  }
+
+  .map-container {
+    height: 22rem;
+  }
+
+  .perth-map {
+    width: 32rem;
+  }
+
+  .perth-map-container {
+    height: 50rem;
+  }
+
+  .container p {
+    font-size: 1.6rem;
+  }
+
+  .container h2 {
+    font-size: 2rem;
+  }
+}
+
+/* 368px */
+@media (max-width: 23em) {
+  .container {
+    max-width: 30rem;
+    gap: 2rem;
+    padding-bottom: 4rem;
+  }
+
+  .map-container {
+    height: 20rem;
+  }
+
+  .perth-map {
+    width: 30rem;
+  }
+}
