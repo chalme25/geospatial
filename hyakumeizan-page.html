@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="individual.css" />
+    <link rel="stylesheet" href="queries-individual.css" />
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-VBYW0RHZ9F"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-VBYW0RHZ9F");
+    </script>
+    <title>Hyakumeizan</title>
+  </head>
+  <body>
+    <div class="header-section">
+      <div class="buttons-section">
+        <a href="index.html" class="home-button">
+          <span>Home</span>
+        </a>
+        <a href="gis-list.html" class="gis-button">
+          <span>Back</span>
+        </a>
+      </div>
+      <div class="header-title">
+        <h1>Hyakumeizan Map</h1>
+      </div>
+    </div>
+    <div class="container">
+      <div class="map-container">
+        <img
+          src="imgs/hyakumeizan.png"
+          alt="A map of Japan."
+          class="hyakumeizan-map"
+        />
+      </div>
+      <div class="description-section">
+        <h2>Project:</h2>
+        <p>
+          An infographic map showing how many of the 100 famous mountains
+          ("Hyakumeizan") are in each region of Japan. My goal was to create an
+          informative map where people can learn something interesting about
+          Japan.
+        </p>
+
+        <h2>Process:</h2>
+        <p>
+          I started by adding a map of Japan as a geopackage file to QGIS. I
+          added a column to the map's attribution table defining which broad
+          region of Japan each prefecture was located. I then created a MySQL
+          database with data on how many mountains were located in each region.
+          I created a new geopackage file with the added SQL table joining by
+          region name. Finally, I created a choropleth map categorized by the
+          number of mountains in each region.
+        </p>
+        <h2>Tools Used:</h2>
+        <p>QGIS, MySQL, Geospatial Information Authority of Japan (GSI)</p>
+      </div>
+    </div>
+  </body>
+</html>

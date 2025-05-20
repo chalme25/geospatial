@@ -1,0 +1,263 @@
+/* 1248px */
+@media (max-width: 78em) {
+  h2 {
+    font-size: 3.6rem;
+  }
+}
+
+/* 1104px */
+@media (max-width: 69em) {
+  h2 {
+    font-size: 3.2rem;
+  }
+}
+
+/* 1056px */
+@media (max-width: 66rem) {
+  .header-section {
+    max-width: 72rem;
+  }
+
+  .img-container div {
+    font-size: 9rem;
+    height: 100%;
+    width: 100%;
+    transform: translateY(2.5rem);
+  }
+}
+
+/* 928px */
+@media (max-width: 58em) {
+  h2 {
+    font-size: 2.8rem;
+  }
+  .img-container div {
+    font-size: 8rem;
+  }
+}
+
+/* 912px */
+@media (max-width: 57em) {
+  h2 {
+    font-size: 2.4rem;
+  }
+  .img-container div {
+    font-size: 7rem;
+    transform: translateY(3.5rem);
+  }
+}
+
+/* 864px */
+@media (max-width: 54em) {
+  .header-section {
+    max-width: 60rem;
+  }
+
+  h2 {
+    font-size: 2.2rem;
+  }
+  .img-container div {
+    font-size: 6rem;
+    transform: translateY(4rem);
+  }
+}
+
+/* 832px */
+@media (max-width: 52em) {
+  .bottom-half {
+    flex-direction: column;
+  }
+
+  h2 {
+    font-size: 3.6rem;
+  }
+  .img-container div {
+    font-size: 10rem;
+    transform: translateY(2rem);
+  }
+
+  .gis-area,
+  .map-area {
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+/* 672px */
+@media (max-width: 42em) {
+  .header-section {
+    max-width: 40rem;
+    padding-bottom: 1rem;
+  }
+}
+
+/* 496px */
+@media (max-width: 31em) {
+  .header-section {
+    max-width: 34rem;
+    padding-bottom: 0rem;
+    padding-top: 2rem;
+  }
+
+  .map-area,
+  .gis-area {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    gap: 1rem;
+  }
+
+  .bottom-half {
+    gap: 2rem;
+  }
+}
+
+/* 464px */
+@media (max-width: 29em) {
+  .header-section {
+    max-width: 32rem;
+  }
+
+  .map-area,
+  .gis-area {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+
+  h2 {
+    font-size: 3rem;
+  }
+  .img-container div {
+    font-size: 8rem;
+    transform: translateY(3rem);
+  }
+}
+
+/* 432px */
+@media (max-width: 27em) {
+  .header-section {
+    max-width: 30rem;
+    gap: 2rem;
+  }
+
+  h1 {
+    color: azure;
+    font-size: 3rem;
+  }
+
+  .header-section p {
+    font-size: 1.8rem;
+  }
+
+  h2 {
+    font-size: 2.4rem;
+  }
+  .img-container div {
+    font-size: 6rem;
+    transform: translateY(4.5rem);
+  }
+
+  .map-area,
+  .gis-area {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+}
+
+/* 400px */
+@media (max-width: 25em) {
+  .header-section {
+    max-width: 30rem;
+    gap: 2rem;
+  }
+
+  h1 {
+    color: azure;
+    font-size: 2.8rem;
+  }
+
+  .header-section p {
+    font-size: 1.6rem;
+  }
+
+  h2 {
+    font-size: 2.2rem;
+  }
+  .img-container div {
+    font-size: 5rem;
+    transform: translateY(3rem);
+  }
+
+  .map-area,
+  .gis-area {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .img-container {
+    width: 17rem;
+    height: 13rem;
+  }
+}
+
+/* 384px */
+@media (max-width: 24em) {
+  .header-section {
+    max-width: 28rem;
+    gap: 1rem;
+  }
+
+  h1 {
+    color: azure;
+    font-size: 2.4rem;
+  }
+
+  .header-section p {
+    font-size: 1.4rem;
+  }
+
+  h2 {
+    font-size: 1.8rem;
+  }
+  .img-container div {
+    font-size: 4rem;
+    transform: translateY(3rem);
+  }
+
+  .map-area,
+  .gis-area {
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+  }
+
+  .img-container {
+    width: 16rem;
+    height: 12rem;
+  }
+}
+
+/* 352px */
+@media (max-width: 22em) {
+  .header-section {
+    max-width: 27rem;
+    gap: 1rem;
+  }
+
+  h2 {
+    font-size: 1.6rem;
+  }
+  .img-container div {
+    font-size: 4rem;
+    transform: translateY(3rem);
+  }
+
+  .map-area,
+  .gis-area {
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+  }
+
+  .img-container {
+    width: 10rem;
+    height: 11rem;
+  }
+}

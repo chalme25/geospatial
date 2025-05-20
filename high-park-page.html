@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>High Park Map</title>
+    <link rel="stylesheet" href="individual.css" />
+    <link rel="stylesheet" href="queries-individual.css" />
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-VBYW0RHZ9F"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-VBYW0RHZ9F");
+    </script>
+  </head>
+  <body>
+    <div class="header-section">
+      <div class="buttons-section">
+        <a href="index.html" class="home-button">
+          <span>Home</span>
+        </a>
+        <a href="leaflet-list.html" class="gis-button">
+          <span>Back</span>
+        </a>
+      </div>
+
+      <div class="header-title">
+        <h1>High Park Map</h1>
+      </div>
+    </div>
+    <div class="container">
+      <div class="map-container">
+        <img
+          src="imgs/high-park-icons-screenshot.png"
+          alt="A map of High Park in Toronto."
+          class="high-park-map-img"
+        />
+      </div>
+      <div class="project-link">
+        <span>Project Link: </span
+        ><a
+          class="project-link-button"
+          target="_blank"
+          href="https://chalme25.github.io/high-park-icons/"
+        >
+          Click Here</a
+        >
+      </div>
+      <div class="description-section">
+        <h2>Introduction:</h2>
+        <p>
+          A map of High Park that highlights park boundaries and includes custom
+          icons. The goal of this project was to create a map with a fun,
+          stylistic, and engaging user experience.
+        </p>
+
+        <h2>Process:</h2>
+        <p>
+          I collected map data of Toronto parks from:
+          <a
+            class="reference-link"
+            target="_blank"
+            href="https://open.toronto.ca/"
+          >
+            Toronto Open Data</a
+          >
+          and downloaded as a GeoJSON file. Using JavaScript and the Leaflet.js
+          library, I filtered the dataset to isolate the “High Park” feature and
+          styled its boundary. I designed custom icons in Inkscape to represent
+          various activities and landmarks and implemented them as Leaflet
+          markers to enhance map visuals.
+        </p>
+
+        <h2>Tools Used:</h2>
+        <p>JavaScript, React.js, Leaflet.js, Toronto Open Data, Inkscape</p>
+      </div>
+    </div>
+  </body>
+</html>

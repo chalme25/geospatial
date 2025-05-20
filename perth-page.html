@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="individual.css" />
+    <link rel="stylesheet" href="queries-individual.css" />
+    <title>Perth Ferry Ports Map</title>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-VBYW0RHZ9F"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-VBYW0RHZ9F");
+    </script>
+  </head>
+  <body>
+    <div class="header-section">
+      <div class="buttons-section">
+        <a href="index.html" class="home-button">
+          <span>Home</span>
+        </a>
+        <a href="gis-list.html" class="gis-button">
+          <span>Back</span>
+        </a>
+      </div>
+      <div class="header-title">
+        <h1>Perth Ferry Ports Map</h1>
+      </div>
+    </div>
+    <div class="container centre">
+      <div class="perth-map-container">
+        <img
+          src="imgs/Perth-Ports-min.png"
+          alt="A map of Perth, Australia."
+          class="perth-map"
+        />
+      </div>
+      <div class="description-section">
+        <h2>Project:</h2>
+        <p>
+          A map determining which of the ferry ports in Perth, Australia is most
+          convenient depending on the suburb you are in. My goal was to make a
+          map that solves a spatial problem using data analysis.
+        </p>
+
+        <h2>Process:</h2>
+        <p>
+          I collected two datasets: one for public transportation stops in Perth
+          and another for Australian municipalities. I filtered the public
+          transportation dataset to only display the three ferry ports as a
+          point. I filtered the municipalities layer to only display Perth
+          suburbs. I used the "distance to nearest hub" tool in QGIS to create a
+          new layer displaying each suburb's closest ferry terminal.
+        </p>
+        <h2>Tools Used:</h2>
+        <p>QGIS, Western Australian Land Information Authority, Data WA</p>
+      </div>
+    </div>
+  </body>
+</html>

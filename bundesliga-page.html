@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bundesliga Map</title>
+    <link rel="stylesheet" href="individual.css" />
+    <link rel="stylesheet" href="queries-individual.css" />
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-VBYW0RHZ9F"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-VBYW0RHZ9F");
+    </script>
+  </head>
+  <body>
+    <div class="header-section">
+      <div class="buttons-section">
+        <a href="index.html" class="home-button">
+          <span>Home</span>
+        </a>
+        <a href="leaflet-list.html" class="gis-button">
+          <span>Back</span>
+        </a>
+      </div>
+
+      <div class="header-title">
+        <h1>Bundesliga Map</h1>
+      </div>
+    </div>
+    <div class="container">
+      <div class="map-container">
+        <img
+          src="imgs/bundesliga-map.png"
+          alt="A map of Japan."
+          class="bundesliga-map-img"
+        />
+      </div>
+      <div class="project-link">
+        <span>Project Link: </span
+        ><a
+          class="project-link-button"
+          target="_blank"
+          href="https://chalme25.github.io/bundesliga-map/"
+        >
+          Click Here</a
+        >
+      </div>
+      <div class="description-section">
+        <h2>Introduction:</h2>
+        <p>
+          A hoverable map of Germany which displays the names of each team
+          participating in the 2024/2025 Bundesliga season depending on which
+          state your mouse hovers over. My aim for this project was to create an
+          informative map with hovering interactivity.
+        </p>
+
+        <h2>Process:</h2>
+        <p>
+          I collected map data of German states from:
+          <a
+            class="reference-link"
+            target="_blank"
+            href="https://gadm.org/download_country.html"
+          >
+            GADM Maps and Data</a
+          >
+          and downloaded as a GeoJSON file. I used QGIS to clean the column of
+          state names and exported as a new GeoJSON file. I used React and
+          Leaflet JS libraries to display the web map and GeoJSON file to show
+          the German states. I created my own JSON file with each region
+          representing an object with team information. Finally, I matched the
+          GeoJSON data's region names with my own JSON data so that whenever a
+          user hovers over a region of Germany it will display information about
+          Bundesliga teams in that region.
+        </p>
+        <h2>Tools Used:</h2>
+        <p>JavaScript, React.js, Leaflet.js, QGIS, GADM Maps & Data</p>
+      </div>
+    </div>
+  </body>
+</html>
